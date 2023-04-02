@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function NavBar() {
   return (
-    <div className="h-16 flex items-center px-5 md:px-10 text-lg justify-between border-b">
+    <div className="h-20 flex items-center px-5 md:px-10 text-lg justify-between border-b">
       <div className="w-12 h-12 overflow-hidden flex items-center justify-center rounded-full cursor-pointer">
         <Image src="/logo/logo.png" alt="logo" width={500} height={500} />
       </div>
