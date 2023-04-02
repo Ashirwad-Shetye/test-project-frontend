@@ -4,7 +4,7 @@ import { IoMdAdd } from "react-icons/io";
 
 function Courses() {
   return (
-    <div className="h-80 mx-5 relative rounded-2xl bg-white/30 p-5">
+    <div className="h-80 mx-5 relative rounded-2xl bg-white/10 p-5">
       <h1 className="font-roboto text-xl">Courses</h1>
       <div className="flex rounded-lg mt-2 space-x-2 overflow-x-scroll scrollhide">
         <CourseCard />
