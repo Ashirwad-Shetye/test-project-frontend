@@ -1,7 +1,9 @@
 import React from "react";
 
-function courseCard() {
-  return <div>courseCard</div>;
+function CourseCard() {
+  return (
+    <div className="h-48 w-72 shrink-0 relative rounded-xl bg-white"></div>
+  );
 }
 
-export default courseCard;
+export default CourseCard;
