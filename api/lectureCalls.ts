@@ -12,7 +12,7 @@ export const newCourse = (params:any) => {
 };
 
 export const getAllCourse = (params:any) => {
-  return axios.post(GET_ALL_LECTURE, params);
+  return axios.get(GET_ALL_LECTURE, params);
 };
 
 export const getCourse = (params:any) => {
@@ -20,9 +20,9 @@ export const getCourse = (params:any) => {
 };
 
 export const setCourseData = (params:any) => {
-  return axios.post(SET_LECTURE_DATA, params);
+  return axios.put(SET_LECTURE_DATA, params);
 };
 
 export const deleteCourse = (params:any) => {
-  return axios.post(DELETE_LECTURE, params);
+  return axios.delete(DELETE_LECTURE, params);
 };

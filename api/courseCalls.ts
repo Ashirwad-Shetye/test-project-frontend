@@ -12,17 +12,17 @@ export const newCourse = (params:any) => {
 };
 
 export const getAllCourse = () => {
-  return axios.post(GET_ALL_COURSE);
+  return axios.get(GET_ALL_COURSE);
 };
 
 export const getCourse = (params:any) => {
-  return axios.get(GET_COURSE);
+  return axios.get(GET_COURSE, params);
 };
 
 export const setCourseData = (params:any) => {
-  return axios.post(SET_COURSE_DATA, params);
+  return axios.put(SET_COURSE_DATA, params);
 };
 
 export const deleteCourse = (params:any) => {
-  return axios.post(DELETE_COURSE, params);
+  return axios.delete(DELETE_COURSE, params);
 };

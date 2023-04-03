@@ -12,7 +12,7 @@ export const newInstructor = (params:any) => {
 };
 
 export const getAllInstructor = () => {
-  return axios.post(GET_ALL_INSTRUCTOR);
+  return axios.get(GET_ALL_INSTRUCTOR);
 };
 
 export const getInstructor = (params:any) => {
@@ -20,9 +20,9 @@ export const getInstructor = (params:any) => {
 };
 
 export const setInstructorData = (params:any) => {
-  return axios.post(SET_INSTRUCTOR_DATA, params);
+  return axios.put(SET_INSTRUCTOR_DATA, params);
 };
 
 export const deleteInstructor = (params:any) => {
-  return axios.post(DELETE_INSTRUCTOR, params);
+  return axios.delete(DELETE_INSTRUCTOR, params);
 };
