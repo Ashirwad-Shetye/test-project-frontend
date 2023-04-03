@@ -13,7 +13,7 @@ function Courses() {
     <div className="mx-5 md:px-5 space-y-5">
       <div className="flex items-center justify-between h-12">
         <h1 className="font-roboto text-2xl mb-2 mx-2">Courses</h1>
-        <Link href={"/AddCourse"}>
+        <Link href={"/addCourse"}>
           <Button size="lg" variant="default">
             <IoMdAdd className="text-lg" />
             <h1 className="">New Course</h1>
