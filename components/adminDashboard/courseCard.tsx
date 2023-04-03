@@ -4,9 +4,7 @@ import React from "react";
 
 function CourseCard() {
   return (
-    <div className="h-[20rem] relative rounded-xl bg-white cursor-pointer selection:ring-1">
-      hi
-    </div>
+    <div className="h-[18rem] shrink-0 w-96 relative rounded-xl bg-white/20 cursor-pointer selection:ring-1"></div>
   );
 }
 

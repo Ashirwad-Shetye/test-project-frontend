@@ -20,7 +20,7 @@ function Courses() {
           </Button>
         </Link>
       </div>
-      <div className="space-y-5 pb-10">
+      <div className="space-x-5 flex scrollhide overflow-x-scroll pb-10">
         <CourseCard />
         <CourseCard />
         <CourseCard />
