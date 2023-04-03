@@ -1,13 +1,9 @@
-import AdminPanel from "./AdminPanel";
-import NavBar from "@/components/navbar";
+import LoginAs from "@/components/login/loginAs";
 
 export default function Home() {
   return (
-    <main className="min-h-fit bg-black text-white">
-      <NavBar />
-      <div className="max-w-[1200px] mx-auto">
-        <AdminPanel />
-      </div>
+    <main className="min-h-fit h-screen flex items-center justify-center text-center">
+      <LoginAs />
     </main>
   );
 }
